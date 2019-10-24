@@ -6,7 +6,7 @@
   "dependencies": {
     "inspirational-quotes": "^1.0.8",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react-dom": "^16.11.0",
     "react-loading-skeleton": "^1.2.0",
     "react-scripts": "3.2.0",
     "uuid": "^3.3.3"
