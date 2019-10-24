@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import uuid from 'uuid';
 import Icon from '../Icons';
 
-export default class AddNoteForm extends Component {
+export default class AddQoutesForm extends Component {
   state = {
     id: uuid(),
     pesan: '',
@@ -24,11 +24,11 @@ export default class AddNoteForm extends Component {
   handleSubmit = () => {
     alert('Upss... Sorry, Lets try next time!');
     // console.log(this.state);
-    // this.setState({
-    //   id: uuid(),
-    //   pesan: '',
-    //   selesai: false
-    // });
+    this.setState({
+      id: uuid(),
+      pesan: '',
+      selesai: false
+    });
   };
 
   render() {

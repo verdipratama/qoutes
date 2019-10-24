@@ -5,7 +5,7 @@ import Home from './components/screens/Home';
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
 import Skeletons from '../src/components/Skeletons';
-import AddNoteForm from './components/screens/AddNoteForm';
+import AddQoutesForm from './components/screens/AddQoutesForm';
 
 import '../src/styles/index.scss';
 import * as serviceWorker from './serviceWorker';
@@ -25,7 +25,7 @@ export default class App extends Component {
     return (
       <div className="app-wrapper">
         <Header />
-        <AddNoteForm />
+        <AddQoutesForm />
         {this.state.loading ? <Skeletons /> : <Home />}
         <Footer />
       </div>
