@@ -22,13 +22,13 @@ export default class AddNoteForm extends Component {
   };
 
   handleSubmit = () => {
-    // alert('Upss... Sorry, Lets try again!');
-    console.log(this.state);
-    this.setState({
-      id: uuid(),
-      pesan: '',
-      selesai: false
-    });
+    alert('Upss... Sorry, Lets try next time!');
+    // console.log(this.state);
+    // this.setState({
+    //   id: uuid(),
+    //   pesan: '',
+    //   selesai: false
+    // });
   };
 
   render() {
