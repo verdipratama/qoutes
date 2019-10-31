@@ -10,8 +10,10 @@ Mini random qoutes
 ```
 npm install
 npm start
+
 ```
 ### Production
 ```
 npm run build
+
 ```
