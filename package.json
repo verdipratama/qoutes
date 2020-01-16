@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.6.5",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
